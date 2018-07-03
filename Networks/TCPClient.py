@@ -10,5 +10,5 @@ sentence = raw_input('Input lowercase sentence: ')
 clientSocket.send(sentence)
 
 modifiedSentence = clientSocket.recv(1024)
-print 'From Server: ', modifiedSentence
+print('From Server: ', modifiedSentence)
 clientSocket.close()
